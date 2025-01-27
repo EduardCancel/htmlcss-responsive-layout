@@ -8,34 +8,27 @@
 
     --title-purple: #4e3969;
     --title-header: #fa9110;
+    --background-container: #f6f5f3;
+
 }
 
-main{
-    margin-top: 1.5rem;
-    background-color: white;
+/* /region utilities */
+
+.container{
+
+    width: 480px;
+    max-width: 100%;
+    margin: auto;
+    background-color:#f6f5f3;
 }
-
-img{
-    width: 100%;
-}
-/* /region header */
-
-.logo{
-    color: #fa9110;
-    font-size: 2rem;
-}
-
-/* /endregion header */
-
-/* /region main */
 
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
-}  
+}
 
-.col-4 {
+col-4 {
     width: calc(100% / 12 * 4);
 }
 
@@ -51,15 +44,52 @@ img{
     display: flex;
 }
 
-.first-container{
-    width: 480px;
-    max-width: 100%;
-    margin: auto;
+/* /endregion utilites */
+
+/* /region header */
+
+header{
+
+    h1{
+        color: #fa9110;
+        text-align: center;
+        padding: 1rem 2rem;
+        font-family: "Nerko One", serif;
+        font-size: 3rem;
+    }
 }
 
-#sweets{
+/* /endregion header */
 
-    h4{
-        color: lightgrey;
+/* /region main */
+
+.title-section{
+
+    .row{
+
+        .col-12{
+
+            h3{
+                color: lightgray;
+                font-size: 300;
+            }
+
+            h2{
+                padding-top: 0.5rem;
+                color: #4e3969;
+                
+                span{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.container-img{
+    .col-12{
+        img{
+            width: 100%;
+        }
     }
 }
