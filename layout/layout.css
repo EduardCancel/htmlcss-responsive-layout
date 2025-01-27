@@ -261,4 +261,44 @@ header{
             }
         }
     }
+
+    .social-btn{
+        padding: 0.5rem 3rem;
+    }
+
+    .banner{
+        
+        .col-12{
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .container-presentation{
+        
+        .col-12{
+
+            .float{
+                float: left;
+                margin-right: 20px;
+            }
+
+            span{
+                display: inline;
+            }
+        }
+    }
+
+}
+
+/* /media-screen 768px */
+
+@media screen and (min-width:992px){
+
+    .container{
+        width: 720px;
+        max-width: 100%;
+        margin: auto;
+        padding: 2rem;
+    }
 }
