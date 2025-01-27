@@ -43,6 +43,13 @@ col-4 {
     display: flex;
 }
 
+.social-btn{
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: gray 10px;
+}
+
 /* /endregion utilites */
 
 /* /region header */
@@ -116,5 +123,23 @@ header{
                 padding-top: 0.5rem;
             }
         }
+    }
+}
+
+.social-bar{
+    
+    margin: 2rem 0;
+
+    .social-btn{
+
+        justify-content: space-between;
+        i{
+            font-size: 1.5rem;
+        }
+
+        b{
+            display: none;
+        }
+        
     }
 }
