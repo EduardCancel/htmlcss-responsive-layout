@@ -9,7 +9,6 @@
     --title-purple: #4e3969;
     --title-header: #fa9110;
     --background-container: #f6f5f3;
-
 }
 
 /* /region utilities */
@@ -19,7 +18,7 @@
     width: 480px;
     max-width: 100%;
     margin: auto;
-    background-color:#f6f5f3;
+    background-color: #f6f5f3;
 }
 
 .row {
@@ -69,7 +68,7 @@ header{
 
         .col-12{
 
-            h3{
+            h4{
                 color: lightgray;
                 font-size: 300;
             }
@@ -87,9 +86,35 @@ header{
 }
 
 .container-img{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
     .col-12{
         img{
             width: 100%;
+            
+        }
+    }
+}
+
+.container-recipe{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:white;
+    .col-12{
+
+        h3{
+            padding-bottom: 1.5rem;
+        }
+
+        ul{
+            list-style: none;
+            
+            li{
+                padding-top: 0.5rem;
+            }
         }
     }
 }
