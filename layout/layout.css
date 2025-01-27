@@ -127,12 +127,12 @@ header{
 }
 
 .social-bar{
-    
+    padding: 1rem;
     margin: 2rem 0;
+    justify-content: space-between;
 
     .social-btn{
 
-        justify-content: space-between;
         i{
             font-size: 1.5rem;
         }
@@ -141,5 +141,24 @@ header{
             display: none;
         }
         
+    }
+}
+
+.banner{
+    padding: 1rem;
+
+    .col-12{
+        display: none;
+    }
+
+
+}
+
+.col-12{
+    padding: 1rem;
+    align-items: center;
+
+    img{
+        width: 100%;
     }
 }
