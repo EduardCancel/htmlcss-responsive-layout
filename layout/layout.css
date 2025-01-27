@@ -168,7 +168,7 @@ header{
 
         margin-left: 20px;
         margin-right: 20px;
-    .col-12{
+    .col-12{1
 
         .line{
             height: 0.5rem;
@@ -181,6 +181,36 @@ header{
             img{
                 width: 100%;
             }
+        }
+    }
+}
+
+/* #endregion main */
+
+/* #region footer */
+
+.section-footer{
+     background-color: #4e3969;
+    .copyright{
+        color: white;
+        font-size: small;
+        text-align: center;
+
+        p{
+            margin-top: 1rem;
+        }
+
+        ul{
+            list-style: none;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            a{
+                color: white;
+            }
+            
+
         }
     }
 }
