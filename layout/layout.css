@@ -190,7 +190,7 @@ header{
 /* #region footer */
 
 .section-footer{
-     background-color: #4e3969;
+    background-color: #4e3969;
     .copyright{
         color: white;
         font-size: small;
@@ -211,6 +211,54 @@ header{
             }
             
 
+        }
+    }
+}
+
+/* #endregion footer */
+
+/* #region-responsive */
+
+@media screen and (min-width:768px){ 
+
+    header{
+        h1{
+            text-align: left;
+        }
+    }
+    .container{
+        width: 720px;
+        max-width: 100%;
+        margin: auto;
+        padding: 2rem;
+    }
+
+    .title-section{
+
+        .row{
+
+            .col-12{
+                
+                h2{
+                    font-size: 2.5rem;
+
+                    .display{
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+
+    .container-recipe{
+
+        .col-12{
+
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 3rem;
+            }
         }
     }
 }
